@@ -1,0 +1,30 @@
+tr
+{
+    border: 1px solid black;
+      height: auto;
+}
+td
+{  border: 1px solid black;
+     width: 20%;
+padding: 90px;
+height: auto;
+padding-bottom: 90px;
+cursor: pointer;
+}
+td:hover
+{
+    background-color: black;
+}
+button
+{float: left;
+width: 10%;
+padding: 50px;
+}
+#maindiv
+{
+    column-count: 1;
+}
+table
+{
+    cursor: pointer;
+}
