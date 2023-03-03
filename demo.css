@@ -1,25 +1,21 @@
 tr
 {
-    border: 1px solid black;
-      height: auto;
+      height:px;
+
 }
 td
-{  border: 1px solid black;
-     width: 20%;
-padding: 90px;
+{    width: 10px;
+padding: 10px;
 height: auto;
-padding-bottom: 90px;
+padding-bottom: 10px;
 cursor: pointer;
 }
-td:hover
-{
-    background-color: black;
-}
-button
+
+/*button
 {float: left;
 width: 10%;
-padding: 50px;
-}
+padding: 80px;
+}*/
 #maindiv
 {
     column-count: 1;
@@ -27,4 +23,38 @@ padding: 50px;
 table
 {
     cursor: pointer;
+ 
 }
+button
+{
+    cursor: pointer;
+}
+button:hover
+{
+    background-color: aquamarine;
+}
+.col
+{
+    border:1px black;
+    width: 50%;
+}
+  #b1,
+  #b2,
+  #b3,
+  #b4,
+  #b5,
+  #b6,
+  #b7,
+  #b8,
+  #b9 {
+      width: 120px;
+      height: 120px;
+      margin: auto;
+      border: 1px solid gray;
+      border-radius: 6px;
+      font-size: 30px;
+      text-align: center;
+  }
+  input:hover{
+      background-color: grey;
+  }
