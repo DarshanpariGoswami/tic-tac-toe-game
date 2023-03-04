@@ -38,15 +38,7 @@ button:hover
     border:1px black;
     width: 50%;
 }
-  #b1,
-  #b2,
-  #b3,
-  #b4,
-  #b5,
-  #b6,
-  #b7,
-  #b8,
-  #b9 {
+.square {
       width: 120px;
       height: 120px;
       margin: auto;
@@ -54,6 +46,9 @@ button:hover
       border-radius: 6px;
       font-size: 30px;
       text-align: center;
+  }
+  .square:hover{
+    background-color: grey;
   }
   input:hover{
       background-color: grey;
